@@ -11,5 +11,5 @@ full_info = datetime.datetime.combine(date_today, alarm_set_time)
 
 print(full_info)
 
-status_ready = datetime.datetime.strptime(str(full_info), '%Y-%m-%d %H:%M:%S').strftime('%a %b %d %I:%M:%S %Y')
+status_ready = datetime.datetime.strptime(str(full_info), '%Y-%m-%d %H:%M:%S').strftime('%a %b %d %I:%M:%S %p %Y')
 print(status_ready)
